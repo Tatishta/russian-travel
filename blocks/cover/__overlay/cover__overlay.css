@@ -1,0 +1,29 @@
+.cover__overlay {
+  background-color: rgb(42, 44, 47, .3);
+  display: block;
+  align-items: center;
+  text-decoration: none;
+  padding: 32px 16px;
+}
+
+.cover__overlay:hover {
+  background-color: rgb(42, 44, 47, .8);
+}
+
+@media screen and (min-width: 768px) {
+  .cover__overlay {
+    padding: 115px 104px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__overlay {
+    padding: 194px 232px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    padding: 244px 312px;
+  }
+}
